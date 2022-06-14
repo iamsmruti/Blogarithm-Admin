@@ -1,0 +1,22 @@
+.active{
+    background-color: #f4f4f4;
+}
+
+.appbar:Mui-AppBar{
+    width: calc(100% - 240px);
+}
+
+.toolbar{
+    width: 100%;
+    height: 60px;
+}
+
+@media only screen and (max-width: 600px){
+    .drawer{
+        display: none;
+    }
+
+    .appBar{
+        width: 100%;
+    }
+}
